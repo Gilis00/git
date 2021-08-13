@@ -4,6 +4,7 @@ from setup import *
 import time
 import random
 
+a = 23
 
 t00 = time.time()
 n = random.randint(0,6)
