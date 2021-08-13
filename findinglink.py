@@ -1,7 +1,9 @@
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
 
-a = [78802,'ins1680318']
+InspIds = ['879315', '1614477', '1426695', '1467230',
+           '882098', '1680318', '1426695', '1419652']
+
 req = Request("https://www.hepdata.net/record/ins1680318")
 #req = Request("https://inspirehep.net/literature/1467230")
 
